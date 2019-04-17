@@ -7,16 +7,125 @@
   height: 40vmin;
   pointer-events: none;
 }
+.title{
+width: 102px;
+height: 24px;
+left: 580px;
+top: 3012px;
 
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: normal;
+
+color: #1F2041;
+}
+#adults ,#children{
+width: 50px;
+height: 15px;
+left: 580px;
+top: 3233px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: normal;
+text-transform: uppercase;
+
+color: #1F2041;
+}
+#submitname{
+width: 280px;
+height: 15px;
+left: 580px;
+top: 3401px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: normal;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+#submit{
+width: 280px;
+height: 44px;
+left: 580px;
+top: 3387px;
+
+/* Primary Gradient */
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 22px;
+}
+#checkname{
+width: 180px;
+height: 24px;
+left: 630px;
+top: 3327px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+color: rgba(31, 32, 65, 0.75);
+}
+#checkbox{
+width: 40px;
+height: 20px;
+left: 580px;
+top: 3327px;
+
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 10px;
+}
+#start, #end{
+  width: 280px;
+  height: 44px;
+  left: 580px;
+  top: 3085px;
+
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.checkin, .checkout{
+  height: 15px;
+  left: 580px;
+  top: 3065px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: normal;
+  text-transform: uppercase;
+  
+  color: #1F2041;
+}
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
+}
+
+#form{
+  text-align: left;
 }
 
 .App-link {
